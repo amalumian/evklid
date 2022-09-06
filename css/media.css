@@ -135,6 +135,11 @@
     color: #333333;
   }
 
+  .header__link:hover::after {
+    opacity: 0;
+    transform: none;
+  }
+
   .header__close-icon-menu {
     position: absolute;
     top: 38px;
